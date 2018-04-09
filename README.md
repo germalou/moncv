@@ -1,12 +1,13 @@
 Symfony Standard Edition
 ========================
+Vous découvrirez mon CV avec les loisirs, experiences, formations, et compétences
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
+* Déroulé de la création de mon CV;
 
 -Tout d'abord j'ai installé Symfony 3.x avec composer. J'ai créé un contôleur puis une "vue" en utilisant du langage Twig pour générer de l'HTML.
+-J'ai créé chaque entité avec doctrine avant de le faire avec une simple commande.
 
--Vous découvrirez mon CV avec les loisirs, experiences, formations, et compétences avec une possibilité de les modifieret supprimer à condition de s'authentifier avec login et mot de passe. Cela a été effectué grâce à une sécurité présente dans le fichier security.yml.
+-avec une possibilité de les modifier et supprimer à condition de s'authentifier avec login et mot de passe. Cela a été effectué grâce à une sécurité présente dans le fichier security.yml.
 
 -Les contenus de chaque item sont présnts dans une base de donnée Mysqloù ils y sont sauvegardés.
 J'ai créé des attributs et des assesseurs pour chaque item afin de les synchroniser à la base de données.

@@ -1773,6 +1773,14 @@
         <argument>2048</argument>
       </call>
       <call method="addListener">
+        <argument>console.command</argument>
+        <argument type="collection">
+          <argument type="service" id="debug.debug_handlers_listener"/>
+          <argument>configure</argument>
+        </argument>
+        <argument>2048</argument>
+      </call>
+      <call method="addListener">
         <argument>kernel.request</argument>
         <argument type="collection">
           <argument type="service" id="router_listener"/>
@@ -2239,9 +2247,12 @@
       </argument>
       <argument type="iterator">
         <argument type="service" id="doctrine.orm.default_entity_manager.property_info_extractor"/>
+        <argument type="service" id="property_info.php_doc_extractor"/>
         <argument type="service" id="property_info.reflection_extractor"/>
       </argument>
-      <argument type="iterator"/>
+      <argument type="iterator">
+        <argument type="service" id="property_info.php_doc_extractor"/>
+      </argument>
       <argument type="iterator">
         <argument type="service" id="property_info.reflection_extractor"/>
       </argument>
@@ -2250,6 +2261,10 @@
       <tag name="property_info.list_extractor" priority="-1000"/>
       <tag name="property_info.type_extractor" priority="-1002"/>
       <tag name="property_info.access_extractor" priority="-1000"/>
+    </service>
+    <service id="property_info.php_doc_extractor" class="Symfony\Component\PropertyInfo\Extractor\PhpDocExtractor">
+      <tag name="property_info.description_extractor" priority="-1000"/>
+      <tag name="property_info.type_extractor" priority="-1001"/>
     </service>
     <service id="1_ServiceLocator~zartk_m" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
@@ -3970,7 +3985,7 @@
       <argument type="service" id="api_platform.metadata.resource.name_collection_factory.yaml"/>
     </service>
     <service id="api_platform.metadata.resource.metadata_factory.short_name" class="ApiPlatform\Core\Metadata\Resource\Factory\ShortNameResourceMetadataFactory" public="false">
-      <argument type="service" id="api_platform.metadata.resource.metadata_factory.yaml"/>
+      <argument type="service" id="api_platform.metadata.resource.metadata_factory.php_doc"/>
     </service>
     <service id="api_platform.metadata.resource.metadata_factory.operation" class="ApiPlatform\Core\Metadata\Resource\Factory\OperationResourceMetadataFactory" public="false">
       <argument type="service" id="api_platform.metadata.resource.metadata_factory.short_name"/>
@@ -4060,6 +4075,9 @@
     <service id="api_platform.metadata.property.metadata_factory.yaml" class="ApiPlatform\Core\Metadata\Property\Factory\ExtractorPropertyMetadataFactory" public="false">
       <argument type="service" id="api_platform.metadata.extractor.yaml"/>
       <argument type="service" id="api_platform.metadata.property.metadata_factory.annotation"/>
+    </service>
+    <service id="api_platform.metadata.resource.metadata_factory.php_doc" class="ApiPlatform\Core\Metadata\Resource\Factory\PhpDocResourceMetadataFactory" public="false">
+      <argument type="service" id="api_platform.metadata.resource.metadata_factory.yaml"/>
     </service>
     <service id="api_platform.swagger.normalizer.documentation" class="ApiPlatform\Core\Swagger\Serializer\DocumentationNormalizer" public="false">
       <tag name="serializer.normalizer" priority="16"/>
@@ -5062,8 +5080,9 @@
     <service id="api_platform.doctrine.orm.metadata.property.metadata_factory.inner" alias="api_platform.metadata.property.metadata_factory.yaml" public="false"/>
     <service id="api_platform.metadata.property.metadata_factory.serializer.inner" alias="api_platform.doctrine.orm.metadata.property.metadata_factory" public="false"/>
     <service id="api_platform.metadata.subresource.metadata_factory.annotation.inner" alias="api_platform.metadata.property.metadata_factory.serializer" public="false"/>
+    <service id="api_platform.metadata.resource.metadata_factory.php_doc.inner" alias="api_platform.metadata.resource.metadata_factory.yaml" public="false"/>
     <service id="api_platform.metadata.property.metadata_factory.validator.inner" alias="api_platform.metadata.subresource.metadata_factory.annotation" public="false"/>
-    <service id="api_platform.metadata.resource.metadata_factory.short_name.inner" alias="api_platform.metadata.resource.metadata_factory.yaml" public="false"/>
+    <service id="api_platform.metadata.resource.metadata_factory.short_name.inner" alias="api_platform.metadata.resource.metadata_factory.php_doc" public="false"/>
     <service id="api_platform.metadata.resource.metadata_factory.operation.inner" alias="api_platform.metadata.resource.metadata_factory.short_name" public="false"/>
     <service id="api_platform.metadata.property.name_collection_factory.inherited.inner" alias="api_platform.metadata.property.name_collection_factory.property_info" public="false"/>
     <service id="event_dispatcher" alias="debug.event_dispatcher" public="true"/>
