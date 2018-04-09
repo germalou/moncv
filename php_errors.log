@@ -1,0 +1,245 @@
+[05-Feb-2018 16:11:42 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Formations::setlieu() in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 31
+[05-Feb-2018 16:11:42 UTC] PHP Stack trace:
+[05-Feb-2018 16:11:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 16:11:42 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 16:11:42 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 16:11:42 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[05-Feb-2018 16:11:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:11:42 UTC] PHP   6. AppBundle\Controller\DefaultController->insertAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:11:57 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Formations::setlieu() in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 31
+[05-Feb-2018 16:11:57 UTC] PHP Stack trace:
+[05-Feb-2018 16:11:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 16:11:57 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 16:11:57 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 16:11:57 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[05-Feb-2018 16:11:57 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:11:57 UTC] PHP   6. AppBundle\Controller\DefaultController->insertAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:14:23 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Formations::setlieu() in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 31
+[05-Feb-2018 16:14:23 UTC] PHP Stack trace:
+[05-Feb-2018 16:14:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 16:14:23 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 16:14:23 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 16:14:23 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[05-Feb-2018 16:14:23 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:14:23 UTC] PHP   6. AppBundle\Controller\DefaultController->insertAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:14:52 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Formations::setlieu() in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 31
+[05-Feb-2018 16:14:52 UTC] PHP Stack trace:
+[05-Feb-2018 16:14:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 16:14:52 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 16:14:52 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 16:14:52 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[05-Feb-2018 16:14:52 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:14:52 UTC] PHP   6. AppBundle\Controller\DefaultController->insertAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:15:25 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Formations::setlieu() in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 31
+[05-Feb-2018 16:15:25 UTC] PHP Stack trace:
+[05-Feb-2018 16:15:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 16:15:25 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 16:15:25 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 16:15:25 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[05-Feb-2018 16:15:25 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:15:25 UTC] PHP   6. AppBundle\Controller\DefaultController->insertAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:17:01 UTC] PHP Fatal error:  Call to undefined method AppBundle\Entity\Formations::setlieu() in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 31
+[05-Feb-2018 16:17:01 UTC] PHP Stack trace:
+[05-Feb-2018 16:17:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[05-Feb-2018 16:17:01 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[05-Feb-2018 16:17:01 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[05-Feb-2018 16:17:01 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[05-Feb-2018 16:17:01 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[05-Feb-2018 16:17:01 UTC] PHP   6. AppBundle\Controller\DefaultController->insertAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[12-Feb-2018 08:46:29 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/src/AppBundle/Repository/FormationsRepository.php on line 3
+[12-Feb-2018 08:46:29 UTC] PHP Stack trace:
+[12-Feb-2018 08:46:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:46:29 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:46:29 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:46:29 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[12-Feb-2018 08:46:29 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[12-Feb-2018 08:46:29 UTC] PHP   6. AppBundle\Controller\DefaultController->indexAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[12-Feb-2018 08:46:29 UTC] PHP   7. Doctrine\Common\Persistence\AbstractManagerRegistry->getRepository() /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php:20
+[12-Feb-2018 08:46:29 UTC] PHP   8. Doctrine\ORM\EntityManager->getRepository() /home/ubuntu/workspace/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php:242
+[12-Feb-2018 08:46:29 UTC] PHP   9. Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory->getRepository() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[12-Feb-2018 08:46:29 UTC] PHP  10. is_a() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:46:29 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:46:29 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:47:24 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/src/AppBundle/Repository/FormationsRepository.php on line 3
+[12-Feb-2018 08:47:24 UTC] PHP Stack trace:
+[12-Feb-2018 08:47:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:47:24 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:47:24 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:47:24 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[12-Feb-2018 08:47:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[12-Feb-2018 08:47:24 UTC] PHP   6. AppBundle\Controller\DefaultController->indexAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[12-Feb-2018 08:47:24 UTC] PHP   7. Doctrine\Common\Persistence\AbstractManagerRegistry->getRepository() /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php:20
+[12-Feb-2018 08:47:24 UTC] PHP   8. Doctrine\ORM\EntityManager->getRepository() /home/ubuntu/workspace/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php:242
+[12-Feb-2018 08:47:24 UTC] PHP   9. Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory->getRepository() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[12-Feb-2018 08:47:24 UTC] PHP  10. is_a() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:47:24 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:47:24 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:47:32 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/src/AppBundle/Repository/FormationsRepository.php on line 3
+[12-Feb-2018 08:47:32 UTC] PHP Stack trace:
+[12-Feb-2018 08:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:47:32 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:47:32 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:47:32 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[12-Feb-2018 08:47:32 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[12-Feb-2018 08:47:32 UTC] PHP   6. AppBundle\Controller\DefaultController->indexAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[12-Feb-2018 08:47:32 UTC] PHP   7. Doctrine\Common\Persistence\AbstractManagerRegistry->getRepository() /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php:20
+[12-Feb-2018 08:47:32 UTC] PHP   8. Doctrine\ORM\EntityManager->getRepository() /home/ubuntu/workspace/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php:242
+[12-Feb-2018 08:47:32 UTC] PHP   9. Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory->getRepository() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[12-Feb-2018 08:47:32 UTC] PHP  10. is_a() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:47:32 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:47:32 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:49:35 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/src/AppBundle/Repository/FormationsRepository.php on line 3
+[12-Feb-2018 08:49:35 UTC] PHP Stack trace:
+[12-Feb-2018 08:49:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:49:35 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:49:35 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:49:35 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/var/cache/dev/classes.php:4282
+[12-Feb-2018 08:49:35 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/var/cache/dev/classes.php:4327}() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[12-Feb-2018 08:49:35 UTC] PHP   6. AppBundle\Controller\DefaultController->indexAction() /home/ubuntu/workspace/var/cache/dev/classes.php:4327
+[12-Feb-2018 08:49:35 UTC] PHP   7. Doctrine\Common\Persistence\AbstractManagerRegistry->getRepository() /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php:20
+[12-Feb-2018 08:49:35 UTC] PHP   8. Doctrine\ORM\EntityManager->getRepository() /home/ubuntu/workspace/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php:242
+[12-Feb-2018 08:49:35 UTC] PHP   9. Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory->getRepository() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[12-Feb-2018 08:49:35 UTC] PHP  10. is_a() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:49:35 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:49:35 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:50:02 UTC] PHP Warning:  Uncaught exception 'Symfony\Component\Debug\Exception\ContextErrorException' with message 'Warning: require(/home/ubuntu/workspace/var/cache/dev/ContainerIgjxbxn/getCacheWarmerService.php): failed to open stream: No such file or directory' in /home/ubuntu/workspace/var/cache/dev/ContainerIgjxbxn/appDevDebugProjectContainer.php:584
+Stack trace:
+#0 /home/ubuntu/workspace/var/cache/dev/ContainerIgjxbxn/appDevDebugProjectContainer.php(584): ContainerIgjxbxn\appDevDebugProjectContainer::load()
+#1 /home/ubuntu/workspace/var/cache/dev/classes.php(3139): ContainerIgjxbxn\appDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(673): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(137): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/H in /home/ubuntu/workspace/var/cache/dev/ContainerIgjxbxn/appDevDebugProjectContainer.php on line 584
+[12-Feb-2018 08:50:02 UTC] PHP Stack trace:
+[12-Feb-2018 08:50:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:50:02 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:50:02 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 08:50:02 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 08:50:02 UTC] PHP   5. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:673
+[12-Feb-2018 08:50:02 UTC] PHP   6. ContainerIgjxbxn\appDevDebugProjectContainer->load() /home/ubuntu/workspace/var/cache/dev/classes.php:3139
+[12-Feb-2018 08:50:02 UTC] PHP Fatal error:  ContainerIgjxbxn\appDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/var/cache/dev/ContainerIgjxbxn/getCacheWarmerService.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/var/cache/dev/ContainerIgjxbxn/appDevDebugProjectContainer.php on line 584
+[12-Feb-2018 08:50:02 UTC] PHP Stack trace:
+[12-Feb-2018 08:50:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:50:02 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:50:02 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 08:50:02 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 08:50:02 UTC] PHP   5. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:673
+[12-Feb-2018 08:50:02 UTC] PHP   6. ContainerIgjxbxn\appDevDebugProjectContainer->load() /home/ubuntu/workspace/var/cache/dev/classes.php:3139
+[12-Feb-2018 08:50:51 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ubuntu/workspace/src/AppBundle/Repository/FormationsRepository.php on line 3
+[12-Feb-2018 08:50:51 UTC] PHP Stack trace:
+[12-Feb-2018 08:50:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 08:50:51 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 08:50:51 UTC] PHP   3. Symfony\Component\HttpKernel\HttpKernel->handle() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:202
+[12-Feb-2018 08:50:51 UTC] PHP   4. Symfony\Component\HttpKernel\HttpKernel->handleRaw() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:68
+[12-Feb-2018 08:50:51 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:151}() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:151
+[12-Feb-2018 08:50:51 UTC] PHP   6. AppBundle\Controller\DefaultController->indexAction() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php:151
+[12-Feb-2018 08:50:51 UTC] PHP   7. Doctrine\Common\Persistence\AbstractManagerRegistry->getRepository() /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php:20
+[12-Feb-2018 08:50:51 UTC] PHP   8. Doctrine\ORM\EntityManager->getRepository() /home/ubuntu/workspace/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php:242
+[12-Feb-2018 08:50:51 UTC] PHP   9. Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory->getRepository() /home/ubuntu/workspace/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php:698
+[12-Feb-2018 08:50:51 UTC] PHP  10. is_a() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:50:51 UTC] PHP  11. spl_autoload_call() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 08:50:51 UTC] PHP  12. Symfony\Component\Debug\DebugClassLoader->loadClass() /home/ubuntu/workspace/vendor/doctrine/doctrine-bundle/Repository/ContainerRepositoryFactory.php:72
+[12-Feb-2018 10:38:21 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 20
+[12-Feb-2018 10:38:22 UTC] PHP Stack trace:
+[12-Feb-2018 10:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 10:38:22 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 10:38:22 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 10:38:22 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 10:38:22 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 10:38:48 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 20
+[12-Feb-2018 10:38:48 UTC] PHP Stack trace:
+[12-Feb-2018 10:38:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 10:38:48 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 10:38:48 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 10:38:48 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 10:38:48 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 10:41:35 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 20
+[12-Feb-2018 10:41:35 UTC] PHP Stack trace:
+[12-Feb-2018 10:41:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 10:41:35 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 10:41:35 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 10:41:35 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 10:41:35 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 10:44:11 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 20
+[12-Feb-2018 10:44:11 UTC] PHP Stack trace:
+[12-Feb-2018 10:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 10:44:11 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 10:44:11 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 10:44:11 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 10:44:11 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 10:52:35 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 19
+[12-Feb-2018 10:52:35 UTC] PHP Stack trace:
+[12-Feb-2018 10:52:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 10:52:35 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 10:52:35 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 10:52:35 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 10:52:35 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 10:54:30 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 20
+[12-Feb-2018 10:54:30 UTC] PHP Stack trace:
+[12-Feb-2018 10:54:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 10:54:30 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 10:54:30 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 10:54:30 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 10:54:30 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 11:10:22 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 20
+[12-Feb-2018 11:10:22 UTC] PHP Stack trace:
+[12-Feb-2018 11:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app_dev.php:0
+[12-Feb-2018 11:10:22 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app_dev.php:29
+[12-Feb-2018 11:10:22 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 11:10:22 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 11:10:22 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 12:35:35 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 20
+[12-Feb-2018 12:35:35 UTC] PHP Stack trace:
+[12-Feb-2018 12:35:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[12-Feb-2018 12:35:35 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:19
+[12-Feb-2018 12:35:35 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 12:35:35 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 12:35:35 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 12:35:53 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 20
+[12-Feb-2018 12:35:53 UTC] PHP Stack trace:
+[12-Feb-2018 12:35:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[12-Feb-2018 12:35:53 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:19
+[12-Feb-2018 12:35:53 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 12:35:53 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 12:35:53 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 12:36:23 UTC] PHP Fatal error:  Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php on line 20
+[12-Feb-2018 12:36:23 UTC] PHP Stack trace:
+[12-Feb-2018 12:36:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/app.php:0
+[12-Feb-2018 12:36:23 UTC] PHP   2. Symfony\Component\HttpKernel\Kernel->handle() /home/ubuntu/workspace/web/app.php:19
+[12-Feb-2018 12:36:23 UTC] PHP   3. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:197
+[12-Feb-2018 12:36:23 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->initializeBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:134
+[12-Feb-2018 12:36:23 UTC] PHP   5. AppKernel->registerBundles() /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:494
+[12-Feb-2018 13:10:50 UTC] PHP Warning:  Uncaught Symfony\Component\Debug\Exception\ContextErrorException: Warning: require(/home/ubuntu/workspace/var/cache/dev/ContainerB98qx75/getSecurity_Access_AuthenticatedVoterService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/var/cache/dev/ContainerB98qx75/appDevDebugProjectContainer.php:1104
+Stack trace:
+#0 /home/ubuntu/workspace/var/cache/dev/ContainerB98qx75/appDevDebugProjectContainer.php(1104): require()
+#1 /home/ubuntu/workspace/var/cache/dev/ContainerB98qx75/appDevDebugProjectContainer.php(2138): ContainerB98qx75\appDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DataCollector/SecurityDataCollector.php(151): ContainerB98qx75\appDevDebugProjectContainer->ContainerB98qx75\{closure}()
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Profiler/Profiler.php(165): Symfony\Bundle\SecurityBundle\DataCollector\SecurityDataCollector->collect(Object(Symfony\C in /home/ubuntu/workspace/var/cache/dev/ContainerB98qx75/appDevDebugProjectContainer.php on line 1104
+[12-Feb-2018 13:10:50 UTC] PHP Fatal error:  ContainerB98qx75\appDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/var/cache/dev/ContainerB98qx75/getSecurity_Access_AuthenticatedVoterService.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/var/cache/dev/ContainerB98qx75/appDevDebugProjectContainer.php on line 1104
+[12-Feb-2018 14:17:24 UTC] PHP Warning:  Uncaught Symfony\Component\Debug\Exception\ContextErrorException: Warning: require(/home/ubuntu/workspace/var/cache/dev/ContainerAhh5zod/getCacheWarmerService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/var/cache/dev/ContainerAhh5zod/appDevDebugProjectContainer.php:1106
+Stack trace:
+#0 /home/ubuntu/workspace/var/cache/dev/ContainerAhh5zod/appDevDebugProjectContainer.php(1106): require()
+#1 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php(297): ContainerAhh5zod\appDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(673): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(137): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kerne in /home/ubuntu/workspace/var/cache/dev/ContainerAhh5zod/appDevDebugProjectContainer.php on line 1106
+[12-Feb-2018 14:17:24 UTC] PHP Fatal error:  ContainerAhh5zod\appDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/var/cache/dev/ContainerAhh5zod/getCacheWarmerService.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/var/cache/dev/ContainerAhh5zod/appDevDebugProjectContainer.php on line 1106
+[26-Feb-2018 13:06:30 UTC] PHP Fatal error:  Cannot redeclare AppBundle\Controller\LoisirsController::validateLoisirsAction() in /home/ubuntu/workspace/src/AppBundle/Controller/LoisirsController.php on line 75
+[26-Mar-2018 12:04:44 UTC] PHP Fatal error:  Cannot use Symfony\Component\Routing\Annotation\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 13
+[26-Mar-2018 12:04:49 UTC] PHP Fatal error:  Cannot use Symfony\Component\Routing\Annotation\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 13
+[26-Mar-2018 12:05:08 UTC] PHP Fatal error:  Cannot use Symfony\Component\Routing\Annotation\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 13
+[26-Mar-2018 12:05:09 UTC] PHP Fatal error:  Cannot use Symfony\Component\Routing\Annotation\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 13
+[26-Mar-2018 12:05:10 UTC] PHP Fatal error:  Cannot use Symfony\Component\Routing\Annotation\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 13
+[26-Mar-2018 12:05:10 UTC] PHP Fatal error:  Cannot use Symfony\Component\Routing\Annotation\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 13
+[26-Mar-2018 12:05:10 UTC] PHP Fatal error:  Cannot use Symfony\Component\Routing\Annotation\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 13
+[26-Mar-2018 12:05:10 UTC] PHP Fatal error:  Cannot use Symfony\Component\Routing\Annotation\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 13
+[26-Mar-2018 12:05:11 UTC] PHP Fatal error:  Cannot use Symfony\Component\Routing\Annotation\Route as Route because the name is already in use in /home/ubuntu/workspace/src/AppBundle/Controller/DefaultController.php on line 13
+[26-Mar-2018 12:56:51 UTC] PHP Warning:  Uncaught Symfony\Component\Debug\Exception\ContextErrorException: Warning: require(/home/ubuntu/workspace/var/cache/dev/ContainerE4vubpn/getCacheWarmerService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/var/cache/dev/ContainerE4vubpn/appDevDebugProjectContainer.php:1112
+Stack trace:
+#0 /home/ubuntu/workspace/var/cache/dev/ContainerE4vubpn/appDevDebugProjectContainer.php(1112): require()
+#1 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php(297): ContainerE4vubpn\appDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(673): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(137): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kerne in /home/ubuntu/workspace/var/cache/dev/ContainerE4vubpn/appDevDebugProjectContainer.php on line 1112
+[26-Mar-2018 12:56:51 UTC] PHP Fatal error:  ContainerE4vubpn\appDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/var/cache/dev/ContainerE4vubpn/getCacheWarmerService.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/var/cache/dev/ContainerE4vubpn/appDevDebugProjectContainer.php on line 1112
+[26-Mar-2018 12:56:57 UTC] PHP Warning:  include(/home/ubuntu/workspace/var/cache/dev/ContainerE4vubpn/appDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/var/cache/dev/appDevDebugProjectContainer.php on line 7
+[26-Mar-2018 12:56:57 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/var/cache/dev/ContainerE4vubpn/appDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/var/cache/dev/appDevDebugProjectContainer.php on line 7
