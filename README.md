@@ -2,17 +2,28 @@ Symfony Standard Edition
 ========================
 Vous découvrirez mon CV avec les loisirs, experiences, formations, et compétences
 
-* Déroulé de la création de mon CV;
+Déroulé de la création de mon CV
+--------------
 
 -Tout d'abord j'ai installé Symfony 3.x avec composer. J'ai créé un contôleur puis une "vue" en utilisant du langage Twig pour générer de l'HTML.
 -J'ai créé chaque entité avec doctrine avant de le faire avec une simple commande.
 
--avec une possibilité de les modifier et supprimer à condition de s'authentifier avec login et mot de passe. Cela a été effectué grâce à une sécurité présente dans le fichier security.yml.
+-Ensuite j'ai généré des API  pour chaque entité puis un répertoire Form dans AppBundle dans lequel j'ai créé des fichiers Type afin de les modifier/supprimer...
 
--Les contenus de chaque item sont présnts dans une base de donnée Mysqloù ils y sont sauvegardés.
-J'ai créé des attributs et des assesseurs pour chaque item afin de les synchroniser à la base de données.
+-J'ai ensuite mis en place une sécurité présente dans le fichier security.yml afin que pour modifier une entité, il faille entrer son login et son mot de passe.
 
--J'ai créé un formulaire pour gérer la modification des items dans AppBundle.
+-Les contenus de chaque entité sont présents dans une base de donnée Mysql où ils y sont sauvegardés.
+J'ai créé des attributs et des assesseurs pour chaque entité afin de les synchroniser à la base de données.
+
+-J'ai installé codeception mais je n'ai pas eu le temps de tester.
+
+-J'ai finalement créé un compte github et j'y ai synchronisé mon fichier à l'aide de lignes de commande.
+
+
+Avis personnel
+--------------
+
+J'ai trouvé ce projet interessant j'y ai appris de nouvelles choses et de nouvelles fonctionnalités très pratiques. Je n'ai malheureusement pas pu aller au bout de mon CV mais son état et les différentes fonctionnalités présentes me satisfont.
 
 
 For details on how to download and get started with Symfony, see the
@@ -32,43 +43,6 @@ The Symfony Standard Edition is configured with the following defaults:
   * Swiftmailer;
 
   * Annotations enabled for everything.
-
-It comes pre-configured with the following bundles:
-
-  * **FrameworkBundle** - The core Symfony framework bundle
-
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
-
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
-
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
-
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
-
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
-
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
-
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
-
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
-
-  * [**SensioGeneratorBundle**][13] (in dev env) - Adds code generation
-    capabilities
-
-  * [**WebServerBundle**][14] (in dev env) - Adds commands for running applications
-    using the PHP built-in web server
-
-  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
-    integration
-
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
 
 
 
