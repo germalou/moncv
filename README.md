@@ -1,4 +1,4 @@
-Symfony Standard Edition
+CV Louise GERMAIN
 ========================
 Vous découvrirez mon CV avec les loisirs, experiences, formations, et compétences
 
