@@ -4,6 +4,16 @@ Symfony Standard Edition
 Welcome to the Symfony Standard Edition - a fully-functional Symfony
 application that you can use as the skeleton for your new applications.
 
+-Tout d'abord j'ai installé Symfony 3.x avec composer. J'ai créé un contôleur puis une "vue" en utilisant du langage Twig pour générer de l'HTML.
+
+-Vous découvrirez mon CV avec les loisirs, experiences, formations, et compétences avec une possibilité de les modifieret supprimer à condition de s'authentifier avec login et mot de passe. Cela a été effectué grâce à une sécurité présente dans le fichier security.yml.
+
+-Les contenus de chaque item sont présnts dans une base de donnée Mysqloù ils y sont sauvegardés.
+J'ai créé des attributs et des assesseurs pour chaque item afin de les synchroniser à la base de données.
+
+-J'ai créé un formulaire pour gérer la modification des items dans AppBundle.
+
+
 For details on how to download and get started with Symfony, see the
 [Installation][1] chapter of the Symfony Documentation.
 
@@ -58,6 +68,9 @@ It comes pre-configured with the following bundles:
 
 All libraries and bundles included in the Symfony Standard Edition are
 released under the MIT or BSD license.
+
+
+
 
 Enjoy!
 
